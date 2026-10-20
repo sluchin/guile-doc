@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">"Guile Doc"</string>
+    <string name="main_activity_title">"Guile Doc"</string>
+</resources>
