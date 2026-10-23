@@ -16,10 +16,10 @@ val tauriProperties = Properties().apply {
 
 android {
     compileSdk = 37
-    namespace = "jp.sluchin.guiledoc"
+    namespace = "jp.doctranslator.guiledoctrans"
     defaultConfig {
         manifestPlaceholders["usesCleartextTraffic"] = "false"
-        applicationId = "jp.sluchin.guiledoc"
+        applicationId = "jp.doctranslator.guiledoctrans"
         minSdk = 24
         targetSdk = 37
         versionCode = tauriProperties.getProperty("tauri.android.versionCode", "1").toInt()

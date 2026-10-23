@@ -1,4 +1,4 @@
-# guile-doc
+# guile-doc-trans
 
 GNU Guile のリファレンスマニュアル (https://www.gnu.org/software/guile/manual/) を**リンクを開いたときに** 取得して、日本語に翻訳して表示するアプリです (事前に翻訳したものはありません)。「原文に戻す」で、英語に戻せます。PC (Linux, Windows, macOS) と Android で動きます。
 
@@ -44,10 +44,10 @@ GNU Guile のリファレンスマニュアル (https://www.gnu.org/software/gui
 
 ## 共通のコード (サブモジュール)
 
-画面、HTML の取り出し、翻訳、取得、キャッシュ、ML Kit のプラグインは**共通のリポジトリ** [doc-translator-core](https://github.com/sluchin/doc-translator-core) にあります (サブモジュール `shared/`)。このリポジトリには Guile だけの設定 (`src/site.ts` と `src-tauri/src/lib.rs` の `SITE`) と、アイコンと、アプリの設定だけがあります。姉妹アプリは [zephyr-doc](https://github.com/sluchin/zephyr-doc) (Zephyr のドキュメント)、[kotlin-doc](https://github.com/sluchin/kotlin-doc) (Kotlin のドキュメント) などです。
+画面、HTML の取り出し、翻訳、取得、キャッシュ、ML Kit のプラグインは**共通のリポジトリ** [doc-translator-core](https://github.com/sluchin/doc-translator-core) にあります (サブモジュール `shared/`)。このリポジトリには Guile だけの設定 (`src/site.ts` と `src-tauri/src/lib.rs` の `SITE`) と、アイコンと、アプリの設定だけがあります。姉妹アプリは [zephyr-doc-trans](https://github.com/sluchin/zephyr-doc-trans) (Zephyr のドキュメント)、[kotlin-doc-trans](https://github.com/sluchin/kotlin-doc-trans) (Kotlin のドキュメント) などです。
 
 ```bash
-git clone --recurse-submodules git@github.com:sluchin/guile-doc.git   # 取り込み済みなら: git submodule update --init
+git clone --recurse-submodules git@github.com:sluchin/guile-doc-trans.git   # 取り込み済みなら: git submodule update --init
 ```
 
 ## 開発 (Docker)

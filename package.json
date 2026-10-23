@@ -1,5 +1,5 @@
 {
-  "name": "guile-doc",
+  "name": "guile-doc-trans",
   "private": true,
   "version": "0.1.0",
   "type": "module",

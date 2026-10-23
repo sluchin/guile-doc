@@ -1,4 +1,4 @@
-package jp.sluchin.guiledoc
+package jp.doctranslator.guiledoctrans
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

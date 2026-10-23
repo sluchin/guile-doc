@@ -10,7 +10,7 @@ use doc_translator_core::Site;
 const SITE: Site = Site {
     host: "doc.guix.gnu.org",
     alt_host: None,
-    user_agent: "guile-doc/0.1 (+https://github.com/sluchin/guile-doc)",
+    user_agent: "guile-doc-trans/0.1 (+https://github.com/sluchin/guile-doc-trans)",
 };
 
 /// アプリを起動する.

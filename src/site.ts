@@ -20,7 +20,7 @@ const FIRST_VERSION = "3.0.11";
  * `*-level-extent` (章, 節など). 左のメニュー (目次) は, ページの中ではなく, 最初のページの目次にある.
  */
 export const site: SiteProfile = {
-  name: "Guile Doc",
+  name: "Guile Doc Trans",
   host: "doc.guix.gnu.org",
   // 版を除いたパス (`/guile/3.0.11/en/html_node/` → `/guile/en/html_node/`). 1 ページの版や PDF は開かない
   pathPrefix: "/guile/en/html_node/",

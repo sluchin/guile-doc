@@ -2,5 +2,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    guile_doc_lib::run()
+    guile_doc_trans_lib::run()
 }
